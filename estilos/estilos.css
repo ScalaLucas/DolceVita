@@ -36,17 +36,24 @@
 
 .rightside_text{
     width: 60%;
-    background-color: #F4C1BE;
-    border-radius: 50px;
 }
+
+.bg2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
 
 
 .rightside_text > h2{
     display: flex;
     justify-content: center;
     font-family: 'Dancing Script', cursive;
-    color: #3E3E3E;
-    font-size: 3rem;
+    color: white;
+    font-size: 7rem;
 }
 
 .rightside > img{
@@ -60,7 +67,7 @@
 }
 
 
-.rightside > p, h1{
+.bg2 > p, h1{
     color: white;
     font-size: 2rem;
 }
@@ -920,6 +927,35 @@ nav ul li a:hover {
 /* ----------------------------- MEDIAQUERY FOOTER GENERAL ----------------------------- */
 
 @media (min-width: 320px) and (max-width: 1280px) {
+
+
+
+/* INICIO */
+
+
+   .rightside{
+    padding: 0;
+    margin: 0;
+   }
+
+   .rightside_text{
+    width: 100%;
+    margin-top: 100%;
+   }
+
+   .rightside_text > h2{
+    font-size: 25px;
+   }
+
+
+
+/* */
+
+
+
+
+
+
 
 .contenedor_logos > h3{
     font-size: 2rem;
