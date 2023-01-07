@@ -37,19 +37,18 @@
           <div class="div4">
             <h2>Contacto</h2>  
                 <div class="info2">
-                      <form>
+                      <form action="https://formsubmit.co/claudiavitali74@gmail.com" method="post">
                       <div class="inputs-boxes">    
                           <div class="input-Box">
-                              <input type="text" placeholder="Nombre" required="required">
+                              <input type="text" placeholder="Nombre" name="Nombre" required="required">
                           </div>
                           <div class="input-Box">
-                              <input type="text" placeholder="Email" required="required">
+                              <input type="text" placeholder="Email" name="Correo" required="required">
                           </div>
                           <div class="input-Box">
-                              <input type="text" placeholder="Teléfono" required="required">
+                              <input type="text" placeholder="Teléfono" name="Telefono" required="required">
                           </div>
                       </div>
-                      </form>
                   </div>
                   <div class="info3">
                       <div class="input-Box">
@@ -57,8 +56,10 @@
                       </div>
                   </div>
                   <div class="input-Box2">
-                    <input type="submit" value="Enviar">
-                </div>  
+                    <input type="submit" name="Enviar" value="Enviar">
+                </div> 
+                  <input type="hidden" name="_captcha" value="false">
+              </form>
       </main>
 
       <footer>

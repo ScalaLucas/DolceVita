@@ -11,8 +11,6 @@
     
 }
 
-
-
 /*Css aplicado a home*/
 
 .contenedor_bghome{
@@ -432,7 +430,7 @@ hr{
     margin-top: 2%;
     width: 60%;
     color: #827777;
-    margin-left: 20%;
+
 }
 
 .input-Box0{
@@ -952,14 +950,91 @@ nav ul li a:hover {
 /* */
 
 
+/* TALLES */
 
+.button_back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.talles1{
+    margin-top: 2%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talles2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: row;
+    gap: 20px !important;
+
+}
+
+.talles3{
+    display: flex;
+    flex-direction: column;
+}
+
+.talles_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px !important;
+}
+
+.talles_content > p{
+    font-size: 10px;
+}
+
+.talles4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px !important;
+}
+
+.talles4 > p{
+    font-size: 10px;
+}
+
+.contenedor_hr0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_talles {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_imgtalles > img{
+    display: none;
+}
+
+
+.imagentalles > img {
+    width: 400px !important;
+    height: 400px !important;
+}
+
+
+}
 
 
 
 
 .contenedor_logos > h3{
     font-size: 2rem;
-    padding-top: 2%;
+    padding-top: 0.5%;
 }
 
 
@@ -1005,7 +1080,7 @@ nav ul li a:hover {
 }
 
 
-}
+
 
 
 /* ----------------------------- MEDIAQUERY CONTACTO GENERAL ----------------------------- */
@@ -1127,13 +1202,7 @@ nav ul li a:hover {
     }
 
     
-/* TALLES */
 
-    .contenedor_talles{
-        width: 50%;
-        margin: 0;
-        padding: 0;
-    }
 
 
 
